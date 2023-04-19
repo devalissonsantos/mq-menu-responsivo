@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* Versão para tablet */
+
+@media only screen and (min-width: 601px)  and (max-width: 960px) {
+    body {
+      font-size: 18px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    
+}

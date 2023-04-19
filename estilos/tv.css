@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* versão de tv */
+
+@media only screen and (min-width: 1920px) {
+    body {
+        font-size: 22px;
+    }
+}
