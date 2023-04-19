@@ -9,4 +9,7 @@
     h1 {
         font-size: 35px;
     }
+    nav > a{
+        font-size: 14px;
+    }
 }
