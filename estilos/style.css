@@ -2,15 +2,77 @@
 
 /* Versão para celular */
 
-@media only screen and (max-width: 600px) {
-    main > p {
-        font-size: 14px;
-    }
-    h1 {
-        font-size: 35px;
-    }
-        
-    nav > a{
-        font-size: 14px;
-    }
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: rgb(133, 133, 133);
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#burguinho {
+    background-color: rgb(77, 76, 76);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer /* pra setinha virar uma mãozinha quando passa o mouse em cima */
+}
+
+menu {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(77, 76, 76);
+    text-align: center;
+    margin: 1px;
+}
+
+a:hover {
+    background-color: rgb(143, 143, 143);
+}
+
+#burguinho:hover {
+    background-color:rgb(143, 143, 143) ;
+}
+
+main {
+    background-color: white;
+    width: 80vw;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+article > p {
+    margin-bottom: 15px;
+    text-indent: 10px;
+    text-align: justify;
+}
+
